@@ -1,7 +1,7 @@
 class AppModel {}
 
-class AppModelImplmentation extends AppModel {
-  AppModelImplmentation();
+class AppModelImplementation extends AppModel {
+  AppModelImplementation();
 }
 
 // class AppModelMock extends AppModel {}
@@ -26,28 +26,28 @@ class AppModelImplmentation extends AppModel {
 
   // GetIt getIt = GetIt.instance;
 
-  // getIt.registerFactory<AppModel>(() => AppModelImplmentation());
+  // getIt.registerFactory<AppModel>(() => AppModelImplementation());
 
-  // GetIt.instance.registerSingleton<AppModel>(AppModelImplmentation());
+  // GetIt.instance.registerSingleton<AppModel>(AppModelImplementation());
 
-  // GetIt.I.registerLazySingleton<AppModel>(() => AppModelImplmentation());
+  // GetIt.I.registerLazySingleton<AppModel>(() => AppModelImplementation());
 
   //   if (testing) {
   //     sl.registerSingleton<AppModel>(AppModelMock());
   //   } else {
-  //     sl.registerSingleton<AppModel>(AppModelImplmentation());
+  //     sl.registerSingleton<AppModel>(AppModelImplementation());
   //   }
   // }
 
   // void setup() {
   //   // sl.registerFactoryAsync<AppModel>(
-  //   //     () async => AppModelImplmentation(await restCall()));
+  //   //     () async => AppModelImplementation(await restCall()));
 
   //   // sl.registerSingletonAsync<AppModel>(
-  //   //     () async => AppModelImplmentation(await restCall()));
+  //   //     () async => AppModelImplementation(await restCall()));
 
   //   // sl.registerFactoryAsync<AppModel>(
-  //   //     () async => AppModelImplmentation(await restCall()));
+  //   //     () async => AppModelImplementation(await restCall()));
 //   final getIt = GetIt.instance;
 
 //   getIt.registerSingletonAsync<ConfigService>(() async {
@@ -63,7 +63,7 @@ class AppModelImplmentation extends AppModel {
 //       dependsOn: [ConfigService]);
 
 //   getIt.registerSingletonWithDependencies<AppModel>(
-//       () => AppModelImplmentation(),
+//       () => AppModelImplementation(),
 //       dependsOn: [ConfigService, DbService, RestService]);
 
 //   return FutureBuilder(
@@ -86,7 +86,7 @@ class AppModelImplmentation extends AppModel {
 //     init();
 //   }
 //   Future init() async {
-//     // do your async initialisation...
+//     // do your async initialization...
 
 //     GetIt.instance.signalReady(this);
 //   }
